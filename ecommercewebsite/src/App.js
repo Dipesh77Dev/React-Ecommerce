@@ -1,26 +1,21 @@
+import logo from './logo.svg';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavigationBar from './Components/NavigationBar';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import CardsDetails from './Components/CardsDetails.js';
-import Cards from './Components/Cards.js';
+import Header from './components/Header';
+import CardsDetails from './components/CardsDetails';
+import Cards from './components/Cards';
+import {Routes,Route} from "react-router-dom";
 
 function App() {
   return (
-    <>
-    <BrowserRouter>
-
-      {/* <h1>App</h1> */}
-      <NavigationBar />
-      <Routes>
-        <Route path = '/' element = {<Cards />}/>
-        <Route path = '/cart' element = {<CardsDetails />}/>
-      </Routes>
-    </BrowserRouter>
-    </>
+  <>
+   <Header />
+   <Routes>
+     <Route path='/' element={<Cards />} />
+     <Route path='/cart/:id' element={<CardsDetails />} />
+   </Routes>
+  </>
   );
-
 }
 
 export default App;
-
-// switch has been replaced by Routes.
