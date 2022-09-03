@@ -10,4 +10,3 @@ https://nextjs.org/
 https://nestjs.com/
 https://sweetalert.js.org/
 
-https://github.com/harsh17112000/react_redux_cart_youtube
