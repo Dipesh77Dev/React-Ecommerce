@@ -1,0 +1,127 @@
+*{
+    margin: 2px;
+    padding: 1px;
+    font-family: Trebuchet MS;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* height: 70%;  */
+    /* width: 80%;  */ 
+    padding: 0px 10px;
+    margin-left: 100px;
+    border: 2px solid blue;
+}
+
+/* Left Side */
+
+.box1{
+    width: 300px;
+    background-color: #f4f5f0;
+    padding: 0px;
+    border: 2px solid red;
+    margin: 0px;
+}
+
+.main-header1{
+    font-size: 25px;
+    margin : 0px 10px;
+}
+
+.div1{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0 5px;
+}
+
+.line1{
+    height : 1px;
+    color : black;
+    background-color: black;
+    margin: 0 2px;
+    width: 120%
+}
+
+/* br{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0 10px;
+} */
+
+.main-header2, .main-header3, .main-header4, .main-header5, .main-header6{
+    font-size: 18px;
+    margin : 0px 4px;
+    padding: 8px 0px;
+}
+
+.div2, .div3{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0 4px;
+}
+
+.div4{
+    font-size: 15px;
+    /* text-align: left; */
+    padding: 2px;
+    margin: 0px 15px;
+}
+
+.dashed1{
+    padding: 2px;
+    margin: 0px 8px;
+}
+
+/* Right Side */
+
+.box2{
+    /* padding: 0px 500px; */
+    width: 900px;
+    background-color: white;
+}
+
+.line2{
+    height : 2px;
+    color : black;
+    background-color: black;
+    margin: 0 15px;
+}
+
+.main-header7{
+    font-size: 20px;
+    margin : 0px 10px;
+    padding: 8px 0px 15px;
+}
+
+.line3{
+    height : 5px;
+    color : black;
+    background-color: black;
+    margin: 0 15px;
+}
+
+.pro-header1{
+    font-size: 18px;
+    margin : 2px 5px;
+    padding: 8px 10px;
+}
+
+.dashed2{
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+.div5{
+    font-size: 15px;
+    padding: 10px 8px;
+    margin: 0px 20px;
+}
+
+.img1{
+    height: 200px;
+    width : 300px; 
+    /* padding : 1000px 200px; */
+    /* margin: 500px 500px; */
+}
